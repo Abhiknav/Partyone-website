@@ -1,0 +1,300 @@
+*{
+    padding:0;
+    margin:0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    color: #555;
+}
+
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.row-block {
+    display: block;
+    width: 100%;
+}
+.row-block:before, .row-block:after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+header .header-top nav{
+    background-color: white;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    
+}
+header .header-top .navbar{
+    width:100%;
+    padding: 0px;
+}
+header .header-top nav div ul {
+    margin-left: 700px;
+}
+header .header-top nav div ul li a{
+    color: black;
+    border-right: 1px solid #ccc;
+    font-size: 13px;
+}
+header .header-top nav div ul li a:hover{
+    background-color: #D60000;
+    color:white;
+}
+header .header-middle{
+    border-bottom: 1px solid #ccc;
+    
+}
+header .header-middle .container{
+    padding: 0px 10px 0px 10px;
+    margin: 0px auto;
+}
+header .icon{
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+}
+header .icon img{
+    width:90px;
+    height: 90px;
+}
+header .header-middle form {
+ margin-top: 30px;
+    margin-left: 80px;
+    
+}
+header .header-middle .form .form-inline .dropdown .btn{
+    background-color: white;
+    border-radius: 0;
+    border-bottom: 1px solid #ced4da;
+    border-top: 1px solid #ced4da;
+    border-left: 1px solid #ced4da;
+}
+.nav-item.dropdown:hover > a {
+    color: #D60000;
+}
+header .header-middle .form .form-inline .dropdown .btn:hover{
+    color: #D60000;
+}
+header .header-middle .form .form-inline .dropdown .dropdown-menu{
+    padding-left: 5px;
+    top: 0px;
+    text-decoration: :none;
+}
+
+header .header-middle .form .form-inline .dropdown .dropdown-menu .btn1{
+    background-color: white;
+    border: 0px;
+    padding-left: 0px;
+}
+header .header-middle .form .form-inline .dropdown .dropdown-menu a{
+    color: black;
+    text-decoration: :none;
+}
+header .header-middle .form .form-inline .dropdown .dropdown-menu a:hover{
+    text-decoration: :none;
+    color: #D60000;
+}
+
+header .header-middle .form .form-inline .dropdown .dropdown-menu .btn1:hover{
+    color: #D60000;
+}
+header  .header-middle .form .form-inline .dropdown .dropdown-menu  .dropdown-menu{
+    background-color: #ccc;
+    
+}
+header .header-middle .form .form-inline .dropdown .dropdown-menu  .dropdown-menu a:hover{
+    color: #D60000;
+    text-decoration: none;
+}
+header .header-middle .form .form-inline input{
+    width:400px;
+    border-left: 0;
+    border-radius: 0;
+}
+header .header-middle .form .form-inline .search{
+    background-color: #D60000;
+    border-radius: 0;
+    color:white;
+}
+header .header-middle .container .cart {
+    margin-top: 0px;
+    margin-right: 0px;
+}
+header .header-middle .container .cart button{
+    color: white;
+    background-color:  #D60000;
+    border:0;
+    width:130px;
+    height:35px;
+}
+header .header-bottom nav{
+    background-color: #333;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+header .header-bottom .navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+header .header-bottom nav div ul li a{
+    color: white;
+    
+    font-size: 18px;
+}
+header .header-bottom nav div ul li:hover{
+    background-color: white;
+    
+}
+header .header-bottom nav div ul li a:hover{
+    color:#D60000;
+}
+header .header-bottom nav div ul  .active{
+    background-color:#D60000;
+}
+header .header-bottom nav div ul li{
+    padding: 0px 10px 0px 10px;
+    border-right: 1px solid #ccc;
+}
+header .header-bottom nav div ul  .dropdown .dropdown-menu a{
+    color:black;
+}
+header .header-bottom nav div ul  .dropdown .dropdown-menu a:hover{
+    color: #D60000;
+}
+header .header-bottom nav div ul{
+    margin-left: 140px;
+}
+section{
+    width:100%;
+    padding: 0px;
+}
+section .section-top{
+    padding: 0px;
+    background-color: #eee;
+}
+
+section .section-top  .container{
+    width:100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 30px;
+    
+    
+}
+section .section-top  .container .container-text{
+    width:70%;
+}
+section .section-top  .container h1{
+    font-size: 25px;
+    color: #666;
+    font-weight: 400
+    
+}
+section .section-top  .container p{
+    font-size: 13px;
+}
+section .section-top  .container p a{
+    color: #D60000;
+    text-decoration: none;
+}
+section .section-top  .container .dropdown{
+    size:200px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+section .section-top  .container .dropdown  button{
+    border-radius: 0;
+    width:180px;
+    height:40px;
+    font-size: 20px;
+    
+}
+section .section-middle{
+    padding-top: 50px;
+}
+section .section-middle .container .Products .card{
+    float:left;
+    padding: 2px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+section .section-middle .container .Products .card .card-body{
+    padding: 2px;
+}
+section .section-middle .container .Products .card a{
+    text-decoration: none;
+    color: black;
+}
+section .section-middle .container .Products .card:hover{
+    border:1px solid black;
+    
+    font-weight: 400px;
+}
+section .section-middle .container .Products .card .card-body img{
+	
+	width:147px;
+	height:155px;
+	border-radius:10%;
+	border:2px solid #c30909;
+}
+section .section-middle .container .Products .card .card-footer{
+    background-color: #ccc;
+    padding: 5px;
+    text-align: left;
+    height:55px;
+    font: italic;
+}
+footer{
+    background-color: #F7F7F7;
+    border-top: 1px solid #EEE;
+    bottom: 0;
+    margin-top: 50px;
+}
+footer .footer-top .container{
+    width: 100%;
+    padding-top:30px;
+    padding-bottom: 30px;
+    bottom: 0;
+    
+}
+footer .footer-top .container p{
+    font-size: 12px;
+    line-height: 20px;
+}
+footer .footer-bottom .footer-left {
+    width:100%;
+}
+footer .footer-bottom .footer-left .card{
+    border: 0;
+    margin-right: 50px;
+}
+footer .footer-bottom .footer-left .About{
+    width:50%;
+}
+
+footer .footer-bottom .footer-left .card-body{
+    background-color: #F7F7F7;
+}
+footer .footer-bottom .footer-left .card-header{
+    background-color: #F7F7F7;
+}
+footer .footer-bottom .footer-left .card-body p{
+    font-size: 14px;
+    line-height: 25px;
+}
+footer .footer-bottom .footer-left .card-body p a{
+    color: black;
+}
+footer .footer-bottom .footer-left .card .social a{
+    color:#000;
+}

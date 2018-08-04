@@ -1,0 +1,28 @@
+.header
+{
+	height:500px;
+}
+body
+{
+	background-color:red;
+}
+#icon
+{
+	border-radius:50%;
+	
+}
+.center_header
+{	
+	
+	font-size:100px;
+	color:black;
+	margin-left:200px;
+	font-family:Serif;
+	font-weight:bold;
+	text-align:center;
+	margin-top:100px;
+}
+.left_header
+{
+	width:20%;
+}
